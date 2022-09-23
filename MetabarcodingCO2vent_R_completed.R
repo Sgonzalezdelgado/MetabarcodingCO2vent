@@ -1,6 +1,6 @@
-############################################
-###### Metabarcoding CO2vent analysis ######
-############################################
+
+######## Metabarcoding CO2vent analysis ########
+
   # Authors: Owen S. Wangensteen, owenwangensteen@ub.edu; Sara González-Delgado, sgonzadl@ull.edu.es
   
 library(vegan)
@@ -587,7 +587,7 @@ bubbleplot <- bubbleplot%>%layout (title = "Eurythoe", xaxis = list(showgrid = F
 bubbleplot
 
 #### HEATMAP ####
-#The input document is a csv (made with excel), with means reads per sample
+#The input document is a csv with means reads per sample
 #it has to be a square matrix
 library(gplots)
 library(ggthemes) 
