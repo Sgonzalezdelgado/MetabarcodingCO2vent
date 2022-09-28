@@ -16,7 +16,7 @@ renormalize <- function(db){
 }
 
 # Load the databases. 
-  #Remember to create columns with the groupings of interest (e.g= group1 (Algae, Metzoans), group3 (Calcifiers, Non-calcifiers).
+  #Remember to create columns with the groupings of interest (e.g= group1 (Algae, Metazoans), group3 (Calcifiers, Non-calcifiers).
 
 db_swarm <- read_delim("~/Desktop/metabarcodinganalysis/VENT-SWARM13-algaemetazoan.csv", 
                                         delim = ";", escape_double = FALSE, trim_ws = TRUE)
